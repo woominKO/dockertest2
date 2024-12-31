@@ -12,7 +12,11 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install"
+	"postCreateCommand": "npm install",
+
+	"features": {
+        "docker-in-docker": "latest"
+    }
 
 	// Configure tool-specific properties.
 	// "customizations": {},
